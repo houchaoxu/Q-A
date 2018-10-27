@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+<form method="POST">
+    <br />{% csrf_token %}<br />
+    <label>
+        <input type="text" name="ent">
+        <input type="text" name="pro">
+        <input type="submit">
+    </label>
+
+</form>
+<h3>{{ data }}</h3>
+</body>
+</html>
